@@ -2,19 +2,20 @@
 module.exports = {
   content: ["./public/**/*.{html,js}"],
   theme: {
+    fontFamily: {
+      DMSans: ["DM Sans", "sans-serif"],
+    },
     extend: {
-      colors: {},
-      maxWidth: {
-        xxl: "1600px",
-      },
-      borderRadius: {
-        borderRadius: "43px",
-      },
-      flexShrink: {
-        flexShrink: "2",
-      },
       textColor: {
-        textColor: "#19202B",
+        "base-blue400": ["#3384FB"],
+        "black-50": ["#001931"],
+      },
+      backgroundColor: {
+        "header-bg": ["#DBF0FB"],
+        "button-bg": ["#D0D0D0"],
+        "button-blue": ["#3384FB"],
+        "black-50": ["#001931"],
+        "black-120": ["#3384FB"],
       },
     },
   },
